@@ -1,0 +1,81 @@
+body{
+  font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+}
+
+#main-contents{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#logo {
+  top: 170px;
+  left: calc(50% - 272px/2);
+  position: absolute;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  padding: 15px;
+}
+
+.topnav a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding-left: 15px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.topnav a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #000;
+  color: #777;
+}
+
+#box{
+  top:290px;
+  left: calc(50% - 270px);
+  position: absolute;
+  width: 100%;
+
+
+
+}
+
+input[type=text] {
+
+  padding: 12px 20px;
+  margin: 8px 0;
+  min-width: 550px;
+
+  box-sizing: border-box;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+  border-radius: 22px;
+  border: 1px solid white;
+
+  background-color: white;
+  background-image: url('icon.png');
+  background-size: 20px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+
+}
+
+#SearchButton{
+  padding-left: 40px;
+  display: inline-block;
+
+}
+
+
+#LuckyButton{
+  padding-left: 10px;
+  align:left;
+  display: inline-block;
+
+
+}
