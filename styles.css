@@ -2,12 +2,6 @@ body{
   font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
 }
 
-#main-contents{
-  display: flex;
-  flex-direction: column;
-}
-
-
 #logo {
   top: 170px;
   left: calc(50% - 272px/2);
@@ -68,7 +62,6 @@ input[type=text] {
 #SearchButton{
   padding-left: 40px;
   display: inline-block;
-
 }
 
 
@@ -76,6 +69,5 @@ input[type=text] {
   padding-left: 10px;
   align:left;
   display: inline-block;
-
 
 }
