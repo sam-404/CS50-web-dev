@@ -1,0 +1,42 @@
+body{
+  font-family: arial, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  height: 60px;
+  background: #f1f1f1;
+}
+
+.topnav a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding-top: 18px;
+  padding-right: 18px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.topnav a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #000;
+  color: #777;
+}
+
+.titlebar {
+    color: #d93025;
+    font-size: 20px;
+    padding: 25px 35px;
+    padding-bottom: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.8px;
+    border-color: #f1f1f1
+}
+
+.searches{
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
