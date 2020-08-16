@@ -5,19 +5,51 @@
         <title>Google Advanced Search</title>
     </head>
     <body>
-      <div class="topnav">
+      <div style="font-family: 'Segoe UI', 'Roboto', arial, sans-serif;" class="topnav">
         <a href="index.html">Google Search</a>
       </div>
       <div class="titlebar">
         <label style="margin-left:10px">Advanced Search</label>
         </div>
-
       <div class="searches">
-        <form action="https://google.com/search" id="formbox" method="GET" name="f">
+        <FORM ACTION="https://google.com/search" id="formbox">
           <span>Find pages with...</span>
-          </form>
-
-
+          <span id="other-text">To do this in the search box.</span>
+        <TABLE>
+          <TR>
+            <TD id="main-text">all these words:</TD>
+            <TD>
+              <INPUT TYPE="TEXT" SIZE="80px" name="as_q">
+            </TD>
+            <td id="side-text">
+              Type the important words: tri-colour rat terrier
+            </td>
+          </TR>
+          <TR>
+            <TD id="main-text">this exact word or phrase:</TD>
+            <TD><INPUT TYPE="TEXT" SIZE="80" name="as_epq"></TD>
+              <td id="side-text">
+              Put exact words in quotes: "rat terrier"
+              </td>
+          </TR>
+          <TR>
+            <TD id="main-text">any of these words:</TD>
+            <TD><INPUT TYPE="TEXT" SIZE="80" name="as_oq"></TD>
+              <td id="side-text">
+              Type OR between all the words you want: miniature OR standard
+              </td>
+          </TR>
+          <TR>
+            <TD id="main-text">none of these words:</TD>
+            <TD><INPUT TYPE="TEXT" SIZE="80" name="as_eq"></TD>
+              <td id="side-text">
+              Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+              </td>
+          </TR>
+        </TABLE>
+        <div class="as-button"><INPUT TYPE="SUBMIT" VALUE="Advanced Search"></div>
+        </FORM>
         </div>
       </body>
 </html>
+
